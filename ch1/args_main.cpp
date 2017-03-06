@@ -2,7 +2,7 @@
  * args_main.cpp
  *
  *  Created on: 2017年2月27日
- *      Author: nwinds
+ *      Author: icyplayer
  */
 #include <iostream>
 //#include <stdio.h>

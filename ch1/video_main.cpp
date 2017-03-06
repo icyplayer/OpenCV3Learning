@@ -1,6 +1,6 @@
 //============================================================================
 // Name        : main.cpp
-// Author      : aawy
+// Author      : icyplayer
 // Version     : 1.0
 // Copyright   : Your copyright notice
 // Description : OpenCV3编程入门，第一章练习程序
@@ -84,7 +84,7 @@ int main_camera_canny( )
 int main_play()
 {
 	VideoCapture capture;
-	capture.open("/Users/ipr/Documents/Learn/workspace/cv3test/1.avi");
+	capture.open("1.avi");
 	if(!capture.isOpened()){
 		cout <<"Failed to open!" <<endl;
 		return -1;

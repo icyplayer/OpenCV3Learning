@@ -1,7 +1,7 @@
 /*
  * show_version.cpp
  *
- *  Created on: 2017年2月27日
+ *  Created on: 2017年3月6日
  *      Author: icyplayer
  */
 
@@ -10,8 +10,9 @@
 
 using namespace cv;
 
-int main_version(int argc, const char** argv)
+int main(int argc, const char** argv)
 {
 	printf("Current OpenCV version is %s", CV_VERSION);
 	return 0;
 }
+

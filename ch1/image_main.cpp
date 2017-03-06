@@ -1,6 +1,6 @@
 //============================================================================
 // Name        : main.cpp
-// Author      : aawy
+// Author      : icyplayer
 // Version     : 1.0
 // Copyright   : Your copyright notice
 // Description : OpenCV3编程入门，第一章练习程序
