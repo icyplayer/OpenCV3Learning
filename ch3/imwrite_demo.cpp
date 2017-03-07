@@ -25,7 +25,8 @@ void createAlphaMat(Mat &mat)
 	}
 }
 
-int main()
+// to test, main_imwrite-> main
+int main_imwrite()
 {
 	// Create Mat with alpha channel
 	Mat mat(480, 640, CV_8UC4);
