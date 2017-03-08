@@ -12,29 +12,31 @@ using namespace cv;
 #define WINDOW_NAME "linear mixed demo"
 
 const int g_nMaxAlphaValue = 100; // Maximum alpha value
-int g_nAlphaValueSlider; // Trackbar's corresponding variable
-double g_dAlphaValue;
-double g_dBetaValue;
-
 
 Mat g_srcImage1;
 Mat g_srcImage2;
 Mat g_dstImage;
 
-// on_Trackbar
+
 // Callback function for trackbar
-void on_Trackbar(int, void*)
+void on_Trackbar(int g_nAlphaValueSlider, void*)
 {
+	double g_dAlphaValue;
+	double g_dBetaValue;
+
 	g_dAlphaValue = (double)g_nAlphaValueSlider/g_nMaxAlphaValue;
-// question: how to auto complete in eclipse?
 	g_dBetaValue = (1.0 - g_dAlphaValue);
 
 	addWeighted(g_srcImage1, g_dAlphaValue, g_srcImage2, g_dBetaValue, 0.0, g_dstImage);
 	imshow(WINDOW_NAME, g_dstImage);
 }
 
+
 int main(int argc, char** argv)
 {
+
+	int g_nAlphaValueSlider; // Trackbar's corresponding variable
+
 	g_srcImage1 = imread("2.jpg");
 	g_srcImage2 = imread("3.jpg");
 	if(!g_srcImage1.data){
