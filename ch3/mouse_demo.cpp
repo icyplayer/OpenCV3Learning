@@ -16,7 +16,9 @@ void DrawRectangle(Mat& img, Rect box);
 
 Rect g_rectangle;
 bool g_bDrawingBox = false;
-RNG g_rng(12345); // wtf?
+
+// Random Number Generator
+RNG g_rng(12345);
 
 
 int main(int argc, char** argv)

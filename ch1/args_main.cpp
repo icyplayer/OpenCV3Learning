@@ -10,7 +10,7 @@
 using namespace std;
 
 
-int main_args(int argc, const char** argv) {
+int main(int argc, const char** argv) {
 	cout <<argc <<endl;
 	cout <<argv[0] << endl;
 
@@ -21,8 +21,3 @@ int main_args(int argc, const char** argv) {
 	}
 	return EXIT_SUCCESS;
 }
-
-
-
-
-
