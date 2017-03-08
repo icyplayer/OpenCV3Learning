@@ -21,21 +21,23 @@ Mat g_dstImage;
 // Callback function for trackbar
 void on_Trackbar(int g_nAlphaValueSlider, void*)
 {
-	double g_dAlphaValue;
-	double g_dBetaValue;
+	double dAlphaValue;
+	double dBetaValue;
 
-	g_dAlphaValue = (double)g_nAlphaValueSlider/g_nMaxAlphaValue;
-	g_dBetaValue = (1.0 - g_dAlphaValue);
+	dAlphaValue = (double)g_nAlphaValueSlider/g_nMaxAlphaValue;
+	dBetaValue = (1.0 - dAlphaValue);
 
-	addWeighted(g_srcImage1, g_dAlphaValue, g_srcImage2, g_dBetaValue, 0.0, g_dstImage);
+	addWeighted(g_srcImage1, dAlphaValue, g_srcImage2, dBetaValue, 0.0, g_dstImage);
 	imshow(WINDOW_NAME, g_dstImage);
+
 }
 
 
-int main(int argc, char** argv)
+// trackbar_demo's main
+int main_trackbar(int argc, char** argv)
 {
 
-	int g_nAlphaValueSlider; // Trackbar's corresponding variable
+	int nAlphaValueSlider; // Trackbar's corresponding variable
 
 	g_srcImage1 = imread("2.jpg");
 	g_srcImage2 = imread("3.jpg");
@@ -48,16 +50,18 @@ int main(int argc, char** argv)
 		return -1;
 	}
 
-	g_nAlphaValueSlider = 70;
+	nAlphaValueSlider = 70;
 	namedWindow(WINDOW_NAME, 1);
 
 	// Create a trackbar widget
 	char TrackbarName[50];
 	sprintf(TrackbarName, "alpha %d", g_nMaxAlphaValue);
-	createTrackbar(TrackbarName, WINDOW_NAME, &g_nAlphaValueSlider, g_nMaxAlphaValue, on_Trackbar);
+	createTrackbar(TrackbarName, WINDOW_NAME, &nAlphaValueSlider, g_nMaxAlphaValue, on_Trackbar);
+
+
 
 	// Show result by callback function
-	on_Trackbar(g_nAlphaValueSlider, 0);
+	on_Trackbar(nAlphaValueSlider, 0);
 
 	waitKey(0);
 	return 0;
