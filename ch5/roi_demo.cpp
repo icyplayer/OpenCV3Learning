@@ -101,11 +101,13 @@ bool ROI_LinearBlending()
 	return true;
 }
 
-int main()
+int main_roi_demo()
 {
-	ROI_AddImage();
-	LinearBlending();
-	ROI_LinearBlending();
+
+//	system("color 5E"); // sh: color: command not found in mac OS X
+	if(ROI_AddImage() && LinearBlending() && ROI_LinearBlending()){
+		cout <<endl <<"successfully generated." <<endl;
+	}
 
 	waitKey(0);
 	return 0;
