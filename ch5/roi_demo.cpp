@@ -106,6 +106,7 @@ int main()
 	ROI_AddImage();
 	LinearBlending();
 	ROI_LinearBlending();
+
 	waitKey(0);
 	return 0;
 }

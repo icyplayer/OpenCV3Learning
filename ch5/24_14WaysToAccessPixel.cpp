@@ -114,7 +114,7 @@ void colorReduce2(Mat &image, int div=64) {
             //-------------开始处理每个像素-------------------
 
 			      int v= *data;
-                  *data++= v - v%div + div/2;
+                  *data++= v - v%div + div/2;// why?
 
             //-------------结束像素处理------------------------
 
@@ -129,7 +129,7 @@ void colorReduce3(Mat &image, int div=64) {
 
 	  int nl= image.rows; //行数
 	  int nc= image.cols * image.channels(); //每行元素的总元素数量
-	  int n= static_cast<int>(log(static_cast<double>(div))/log(2.0));
+	  int n= static_cast<int>(log(static_cast<double>(div))/log(2.0)); // log2(div)
 	  //掩码值
 	  uchar mask= 0xFF<<n; // e.g. 对于 div=16, mask= 0xF0
 
