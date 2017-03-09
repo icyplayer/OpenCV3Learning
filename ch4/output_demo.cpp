@@ -39,7 +39,7 @@ int mat_output()
 }
 
 
-int main()
+int point_output()
 {
 	Point2f p(6, 2);
 	cout <<"2D p = " <<p <<";" <<endl;
