@@ -26,3 +26,12 @@ using namespace std;
 //time0 = ((double)getTickCount() - time0) / getTickFrequency();
 //cout <<"runtime cost: " <<time0 <<"sec" <<endl;
 //
+//
+//for (int y = 0; y < image.rows; ++y){
+//	for(int x = 0; x < image.cols; ++x){
+//		for(int c = 0; c < 3; ++c){
+//			new_image.at<Vec3b>(y,x)[c] = saturate_cast<uchar>((g_nContrastValue*0.01) * (image.at<Vec3b>(y, x)[c]) + g_nBrightValue);
+//		}
+//	}
+//}
+////

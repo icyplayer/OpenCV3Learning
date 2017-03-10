@@ -14,7 +14,7 @@ using namespace std;
 
 bool MultiChannelBlending();
 
-int main()
+int main_channel()
 {
 #ifdef WINDOWS
 	system("color 9F");
