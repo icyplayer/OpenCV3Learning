@@ -58,7 +58,7 @@
 					</folderInfo>
 					<sourceEntries>
 						<entry excluding="filters|morphology|filters/linearFilter_trackbar_demo.cpp|linearFilter_trackbar_demo.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry excluding="linearFilter_trackbar_demo.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="filters"/>
+						<entry excluding="fiveFilters_trackbar_demo.cpp|linearFilter_trackbar_demo.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="filters"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="morphology"/>
 					</sourceEntries>
 				</configuration>
@@ -108,7 +108,7 @@
 					</folderInfo>
 					<sourceEntries>
 						<entry excluding="filters|morphology|filters/linearFilter_trackbar_demo.cpp|linearFilter_trackbar_demo.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry excluding="linearFilter_trackbar_demo.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="filters"/>
+						<entry excluding="fiveFilters_trackbar_demo.cpp|linearFilter_trackbar_demo.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="filters"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="morphology"/>
 					</sourceEntries>
 				</configuration>

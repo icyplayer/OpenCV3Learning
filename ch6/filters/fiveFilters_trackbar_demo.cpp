@@ -34,7 +34,7 @@ static void on_BilateralFilter(int, void*);
 
 void (*callbacks[5])(int, void*) = {on_BoxFilter, on_MeanBlur, on_GaussianBlur, on_MedianBlur, on_BilateralFilter};
 
-int main()
+int main_5filters()
 {
 	// Load image
 	g_srcImage = imread("3.jpg", 1);
