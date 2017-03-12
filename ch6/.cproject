@@ -57,7 +57,9 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="linearFilter_trackbar_demo.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="filters|morphology|filters/linearFilter_trackbar_demo.cpp|linearFilter_trackbar_demo.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="linearFilter_trackbar_demo.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="filters"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="morphology"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -104,6 +106,11 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
+					<sourceEntries>
+						<entry excluding="filters|morphology|filters/linearFilter_trackbar_demo.cpp|linearFilter_trackbar_demo.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="linearFilter_trackbar_demo.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="filters"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="morphology"/>
+					</sourceEntries>
 				</configuration>
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
