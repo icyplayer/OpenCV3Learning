@@ -32,16 +32,16 @@ int boxFilter_demo()
 	/* According to the result shown,
 	 * 5*5 kernel is the clearest of the three.
 	 */
-	Mat out1, out, out2;
+	Mat out1, out3, out2;
 	boxFilter(image, out1, -1, Size(3, 3));
-	boxFilter(image, out, -1, Size(5, 5));
-	boxFilter(image, out2, -1, Size(7, 7));
+	boxFilter(image, out2, -1, Size(5, 5));
+	boxFilter(image, out3, -1, Size(7, 7));
 
 	// Display
 	imshow("box blur - origin", image);
-	imshow("box blur - result", out);
-	imshow("box blur - result1", out1);
-	imshow("box blur - result2", out2);
+	imshow("box blur - result", out1);
+	imshow("box blur - result1", out2);
+	imshow("box blur - result2", out3);
 
 	waitKey(0);
 	return 0;
@@ -66,16 +66,16 @@ int meanFilter_demo()
 	/* According to the result shown,
 	 * 5*5 kernel is the clearest of the three.
 	 */
-	Mat out1, out, out2;
+	Mat out1, out3, out2;
 	blur(image, out1, Size(3, 3));
-	blur(image, out, Size(5, 5));
-	blur(image, out2, Size(7, 7));
+	blur(image, out2, Size(5, 5));
+	blur(image, out3, Size(7, 7));
 
 	// Display
 	imshow("normalized blur - origin", image);
-	imshow("normalized blur - result", out);
-	imshow("normalized blur - result1", out1);
-	imshow("normalized blur - result2", out2);
+	imshow("normalized blur - result", out1);
+	imshow("normalized blur - result1", out2);
+	imshow("normalized blur - result2", out3);
 
 	waitKey(0);
 	return 0;
@@ -98,19 +98,17 @@ int gaussian_demo()
 	namedWindow("gaussian blur - result2");
 
 	// Gaussian bluring
-	/* According to the result shown,
-	 * 5*5 kernel is the clearest of the three.
-	 */
-	Mat out1, out, out2;
+
+	Mat out1, out2, out3;
 	GaussianBlur(image, out1, Size(3, 3), 0, 0, BORDER_DEFAULT);
-	GaussianBlur(image, out, Size(5, 5), 0, 0);
-	GaussianBlur(image, out2, Size(7, 7), 0, 0);
+	GaussianBlur(image, out2, Size(5, 5), 0, 0);
+	GaussianBlur(image, out3, Size(7, 7), 0, 0);
 
 	// Display
 	imshow("gaussian blur - origin", image);
-	imshow("gaussian blur - result", out);
-	imshow("gaussian blur - result1", out1);
-	imshow("gaussian blur - result2", out2);
+	imshow("gaussian blur - result", out1);
+	imshow("gaussian blur - result1", out2);
+	imshow("gaussian blur - result2", out3);
 
 	waitKey(0);
 	return 0;

@@ -25,7 +25,7 @@ static void on_MeanBlur(int, void*);
 static void on_GaussianBlur(int, void*);
 
 
-int main()
+int main_linearFilterTrackbar()
 {
 	// Load image
 	g_srcImage = imread("1.jpg", 1);
