@@ -57,11 +57,12 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="pyramid|floodFill|filters|morphology|filters/linearFilter_trackbar_demo.cpp|linearFilter_trackbar_demo.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="threshold|pyramid|floodFill|filters|morphology|filters/linearFilter_trackbar_demo.cpp|linearFilter_trackbar_demo.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 						<entry excluding="fiveFilters_trackbar_demo.cpp|linearFilter_trackbar_demo.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="filters"/>
 						<entry excluding="floodFill_trackbar_demo.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="floodFill"/>
 						<entry excluding="morph_trackbar_demo.cpp|dilate_erode_trackbar_demo.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="morphology"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="pyramid"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="threshold"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -109,11 +110,12 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="pyramid|floodFill|filters|morphology|filters/linearFilter_trackbar_demo.cpp|linearFilter_trackbar_demo.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="threshold|pyramid|floodFill|filters|morphology|filters/linearFilter_trackbar_demo.cpp|linearFilter_trackbar_demo.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 						<entry excluding="fiveFilters_trackbar_demo.cpp|linearFilter_trackbar_demo.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="filters"/>
 						<entry excluding="floodFill_trackbar_demo.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="floodFill"/>
 						<entry excluding="morph_trackbar_demo.cpp|dilate_erode_trackbar_demo.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="morphology"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="pyramid"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="threshold"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
