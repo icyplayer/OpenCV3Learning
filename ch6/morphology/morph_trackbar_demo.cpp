@@ -37,7 +37,7 @@ static void on_ErodeDilate(int, void*);
 static void on_TopBlackHat(int, void*);
 
 
-int main()
+int main_morph_trackbar()
 {
 	// 1. Load image
 	g_srcImage = imread("captain.jpg", 1);
