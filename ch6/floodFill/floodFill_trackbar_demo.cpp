@@ -63,7 +63,7 @@ static void onMouse(int event, int x, int y, int, void *)
 
 
 
-int main(int argc, char **argv)
+int main_floodFill_tracbar(int argc, char **argv)
 {
 	// 1. Load original image
 	g_srcImage = imread("bookstore.jpg");
