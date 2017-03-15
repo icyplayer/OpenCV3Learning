@@ -20,7 +20,7 @@ int main_scharr()
 {
 	Mat grad_x, grad_y;
 	Mat abs_grad_x, abs_grad_y, dstImage;
-	Mat srcImage = imread("4.jpg");
+	Mat srcImage = imread("img/4.jpg");
 
 	imshow("Scharr - origin", srcImage);
 

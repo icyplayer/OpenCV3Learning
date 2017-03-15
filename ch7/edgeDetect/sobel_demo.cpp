@@ -20,7 +20,7 @@ int main_sobel()
 {
 	Mat grad_x, grad_y;
 	Mat abs_grad_x, abs_grad_y, dstImage;
-	Mat srcImage = imread("2.jpg");
+	Mat srcImage = imread("img/2.jpg");
 
 	imshow("Sobel - origin", srcImage);
 

@@ -18,7 +18,7 @@ using namespace std;
 int main_laplacian()
 {
 	Mat srcImage, srcGrayImage, dstImage, abs_dst;
-	srcImage = imread("3.jpg");
+	srcImage = imread("img/3.jpg");
 
 	imshow("Laplacian - origin", srcImage);
 

@@ -34,9 +34,9 @@ static void on_Sobel(int, void *);
 void Scharr();
 
 // main
-int main()
+int main_edgeDetect()
 {
-	g_srcImage = imread("5.jpg");
+	g_srcImage = imread("img/5.jpg");
 	if(!g_srcImage.data){
 		printf("read g_srcImage failed.\n");
 		return false;

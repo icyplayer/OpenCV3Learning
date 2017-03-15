@@ -18,7 +18,7 @@ using namespace std;
 
 int main_canny()
 {
-	Mat srcImage = imread("1.jpg");
+	Mat srcImage = imread("img/1.jpg");
 	Mat srcImage1 = srcImage.clone();
 
 	imshow("Canny - origin", srcImage);

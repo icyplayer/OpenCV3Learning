@@ -55,8 +55,10 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="edgeDetect" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="edgeDetect"/>
+						<entry excluding="remap|hough|edgeDetect" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="edgeDetect_demo.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="edgeDetect"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="hough"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="remap"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -104,8 +106,10 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="edgeDetect" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="edgeDetect"/>
+						<entry excluding="remap|hough|edgeDetect" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="edgeDetect_demo.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="edgeDetect"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="hough"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="remap"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
