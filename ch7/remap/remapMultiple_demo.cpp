@@ -6,13 +6,6 @@
  */
 
 
-/*
- * remap_demo.cpp
- *
- *  Created on: 2017年3月15日
- *      Author: icyplayer
- */
-
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <iostream>
@@ -33,7 +26,7 @@ int update_map(int key);
 static void ShowHelpText();
 
 
-int main()
+int main_remap_multiple()
 {
 	// Show instructions
 	ShowHelpText();
