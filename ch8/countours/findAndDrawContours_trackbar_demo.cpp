@@ -46,7 +46,7 @@ void on_ThreshChange(int, void*);
 };
 
 
-int main()
+int main_contour_trackbar()
 {
 	using namespace contour;
 	g_srcImage = imread("image/2.jpg", 1);
