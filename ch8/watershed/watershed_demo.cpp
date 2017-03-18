@@ -29,7 +29,7 @@ void on_Mouse(int event, int x, int y, int flags, void*);
 Point prevPt(-1, -1);
 
 
-int main()
+int main_watershed()
 {
 	using namespace wt;
 	// 1. Read in image

@@ -35,7 +35,6 @@ vector<Vec4i> g_vHierarchy;
 
 // callback fucntion
 void on_ThreshChange(int, void*);
-static void ShowHelpText();
 
 };
 
