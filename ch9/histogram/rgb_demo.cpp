@@ -15,7 +15,7 @@
 using namespace cv;
 using namespace std;
 
-int main()
+int main_rgb()
 {
 	// 1. Read in image
 	Mat srcImage;
