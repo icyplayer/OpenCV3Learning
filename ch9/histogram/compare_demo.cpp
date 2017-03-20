@@ -12,7 +12,7 @@
 using namespace cv;
 using namespace std;
 
-int main()
+int main_compare()
 {
 	// 1. Declare 3 Mat, base, RGB and HSV
 	 Mat srcImage_base, hsvImage_base;
