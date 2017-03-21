@@ -27,7 +27,7 @@ void on_CornerHarris(int, void*);
 
 }
 
-int main()
+int main_harris()
 {
 	using namespace hc;
 	g_srcImage = imread("image/2.jpg", 1);
