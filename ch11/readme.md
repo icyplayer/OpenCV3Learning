@@ -8,3 +8,6 @@ readme.md
 
 ## Requirement
 OpenCV version: 2.4.13     
+
+## bugs
+./flann/flann_surf_demo.cpp cannot work.

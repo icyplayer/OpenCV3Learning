@@ -16,7 +16,7 @@ using namespace std;
 using namespace cv;
 
 
-int main_featureDetector()
+int main_surfFeatureDetector()
 {
 	Mat srcImage1 = imread("image/1-1.jpg", 1);
 	Mat srcImage2 = imread("image/1-2.jpg", 1);

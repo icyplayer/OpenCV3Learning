@@ -26,6 +26,9 @@
 								</option>
 								<option id="macosx.cpp.link.option.libs.43080342" name="Libraries (-l)" superClass="macosx.cpp.link.option.libs" useByScannerDiscovery="false" valueType="libs">
 									<listOptionValue builtIn="false" value="opencv_core"/>
+									<listOptionValue builtIn="false" value="opencv_video"/>
+									<listOptionValue builtIn="false" value="opencv_videostab"/>
+									<listOptionValue builtIn="false" value="opencv_flann"/>
 									<listOptionValue builtIn="false" value="opencv_features2d"/>
 									<listOptionValue builtIn="false" value="opencv_nonfree"/>
 									<listOptionValue builtIn="false" value="opencv_imgproc"/>
@@ -56,7 +59,8 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="surf" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="flann|surf" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="flann"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="surf"/>
 					</sourceEntries>
 				</configuration>
@@ -105,7 +109,8 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="surf" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="flann|surf" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="flann"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="surf"/>
 					</sourceEntries>
 				</configuration>

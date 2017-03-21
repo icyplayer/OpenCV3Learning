@@ -9,9 +9,7 @@
 #include <opencv2/core/core.hpp>
 #include <opencv2/features2d/features2d.hpp>
 #include <opencv2/highgui/highgui.hpp>
-#include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/nonfree/nonfree.hpp>
-
 #include <opencv2/legacy/legacy.hpp>
 #include <iostream>
 
@@ -19,7 +17,7 @@ using namespace std;
 using namespace cv;
 
 
-int main()
+int main_surfFeaturesMatching()
 {
 	Mat srcImage1 = imread("image/1-1.jpg", 1);
 	Mat srcImage2 = imread("image/1-2.jpg", 1);
