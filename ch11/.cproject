@@ -26,6 +26,7 @@
 								</option>
 								<option id="macosx.cpp.link.option.libs.43080342" name="Libraries (-l)" superClass="macosx.cpp.link.option.libs" useByScannerDiscovery="false" valueType="libs">
 									<listOptionValue builtIn="false" value="opencv_core"/>
+									<listOptionValue builtIn="false" value="opencv_calib3d"/>
 									<listOptionValue builtIn="false" value="opencv_flann"/>
 									<listOptionValue builtIn="false" value="opencv_features2d"/>
 									<listOptionValue builtIn="false" value="opencv_nonfree"/>
@@ -57,8 +58,9 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="flann|surf" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="homography|flann|surf" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 						<entry excluding="flann_surf_demo.cpp|93_SiftAndBFMatcher.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="flann"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="homography"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="surf"/>
 					</sourceEntries>
 				</configuration>
@@ -107,8 +109,9 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="flann|surf" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="homography|flann|surf" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 						<entry excluding="flann_surf_demo.cpp|93_SiftAndBFMatcher.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="flann"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="homography"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="surf"/>
 					</sourceEntries>
 				</configuration>

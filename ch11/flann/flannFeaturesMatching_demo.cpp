@@ -17,7 +17,7 @@ using namespace std;
 using namespace cv;
 
 
-int main()//_flannFeaturesMatching()
+int main_flannFeaturesMatching()
 {
 	// 1. Load images
 	Mat srcImage1 = imread("image/1-1.jpg", 1);

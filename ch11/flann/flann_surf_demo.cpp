@@ -4,7 +4,7 @@
  *  Created on: 2017年3月21日
  *      Author: icyplayer
  */
-
+// FIXME cannot run under Mac OS X 10.12, video related.
 
 #include <opencv2/opencv.hpp>
 #include <opencv2/features2d/features2d.hpp>

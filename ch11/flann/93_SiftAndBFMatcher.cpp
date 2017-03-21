@@ -1,4 +1,5 @@
-// Cannot run on Mac OS X 10.12
+// FIXME cannot run under Mac OS X 10.12, video related.
+
 
 //--------------------------------------【程序说明】-------------------------------------------
 //		程序说明：《OpenCV3编程入门》OpenCV2版书本配套示例程序93
