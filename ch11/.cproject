@@ -26,8 +26,6 @@
 								</option>
 								<option id="macosx.cpp.link.option.libs.43080342" name="Libraries (-l)" superClass="macosx.cpp.link.option.libs" useByScannerDiscovery="false" valueType="libs">
 									<listOptionValue builtIn="false" value="opencv_core"/>
-									<listOptionValue builtIn="false" value="opencv_video"/>
-									<listOptionValue builtIn="false" value="opencv_videostab"/>
 									<listOptionValue builtIn="false" value="opencv_flann"/>
 									<listOptionValue builtIn="false" value="opencv_features2d"/>
 									<listOptionValue builtIn="false" value="opencv_nonfree"/>
@@ -60,7 +58,7 @@
 					</folderInfo>
 					<sourceEntries>
 						<entry excluding="flann|surf" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="flann"/>
+						<entry excluding="flann_surf_demo.cpp|93_SiftAndBFMatcher.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="flann"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="surf"/>
 					</sourceEntries>
 				</configuration>
@@ -110,7 +108,7 @@
 					</folderInfo>
 					<sourceEntries>
 						<entry excluding="flann|surf" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="flann"/>
+						<entry excluding="flann_surf_demo.cpp|93_SiftAndBFMatcher.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="flann"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="surf"/>
 					</sourceEntries>
 				</configuration>
