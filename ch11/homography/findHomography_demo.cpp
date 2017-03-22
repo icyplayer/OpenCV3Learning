@@ -17,7 +17,7 @@ using namespace std;
 using namespace cv;
 
 
-int main()
+int main_homography()
 {
 	// 1. Load images
 	Mat srcImage1 = imread("image/3-1.jpg", 1);

@@ -58,9 +58,10 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="homography|flann|surf" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="orb|homography|flann|surf" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 						<entry excluding="flann_surf_demo.cpp|93_SiftAndBFMatcher.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="flann"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="homography"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="orb"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="surf"/>
 					</sourceEntries>
 				</configuration>
@@ -109,9 +110,10 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="homography|flann|surf" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="orb|homography|flann|surf" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 						<entry excluding="flann_surf_demo.cpp|93_SiftAndBFMatcher.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="flann"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="homography"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="orb"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="surf"/>
 					</sourceEntries>
 				</configuration>
