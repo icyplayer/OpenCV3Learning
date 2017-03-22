@@ -3,15 +3,7 @@
  *
  *  Created on: 2017年3月21日
  *      Author: icyplayer
- *  reinstalled
- *  $ brew install opencv --with-ffmpeg --with-gstreamer  --with-tbb  --with-vtk   --with-opengl
- *   FAILED
- *  $ brew install opencv --with-ffmpeg --with-gstreamer  --with-vtk
- *  FAILED
- *  $ brew install opencv
- *  SUCCESS
- *  (some libs was missing in previous installation
- *  and then we can
+ *
  */
 
 
